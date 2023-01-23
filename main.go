@@ -48,4 +48,7 @@ func main() {
 
 	fmt.Println("Done.\nSolved in", elapsed)
 	b.Print(false)
+
+	fmt.Print("\nPress enter to exit.")
+	fmt.Scanln(&text)
 }
